@@ -3,11 +3,11 @@
 ${1:
 /**
  * Modular Scale
- * Returns the modular scale of a given number. Must provide a number value for the first argument. 
- * The second argument is a required integer for an increment value: ...-3, -2, -1, 0, 1, 2, 3... 
+ * Returns the modular scale of a given number. Must provide a number value for the first argument.
+ * The second argument is a required integer for an increment value: ...-3, -2, -1, 0, 1, 2, 3...
  * The third value is the ratio number.
  *
- * Note: The function can be wrapped in sass's abs(), floor(), or ceil() functions to get the 
+ * Note: The function can be wrapped in sass's abs(), floor(), or ceil() functions to get the
  * absolute value, round down, or round up respectively.
  *
  * Source
@@ -22,8 +22,8 @@ div {
  font-size:        modular-scale(14px,  -1, 1.618); // returns: 8.653px
 
  // Can be used with ceil(round up) or floor(round down)
- font-size: floor( modular-scale(14px, 1, 1.618) ); // returns: 22px
- font-size:  ceil( modular-scale(14px, 1, 1.618) ); // returns: 23px
+ font-size: floor(modular-scale(14px, 1, 1.618)); // returns: 22px
+ font-size:  ceil(modular-scale(14px, 1, 1.618)); // returns: 23px
 }
 
 ]]></content>

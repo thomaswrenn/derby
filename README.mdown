@@ -33,7 +33,7 @@ Autocompletions are very self explanatory. These are snippets that are much shor
 
 To run an autocomplete, type in the property you are looking for and hit `Tab`. Most of the time you don't have to type this much as fuzzy searching in Sublime will catch it earlier. Here is an example with `:` representing the `Tab` key.
 	
-	animation : @include animation( scale 1.0s ease-in );
+	animation : @include animation(scale 1.0s ease-in);
 
 ## Docs
 
